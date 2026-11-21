@@ -1,0 +1,114 @@
+{
+  "synthetic": true,
+  "files": [
+    {
+      "path": "data/sources.parquet",
+      "rows": 6,
+      "columns": [
+        "contribution_id",
+        "supplier",
+        "plant",
+        "category",
+        "order",
+        "month",
+        "amount",
+        "co2",
+        "version"
+      ],
+      "sha256": "8f993f695788ad8bae50f7b7a587e1096e60544be631d5f688d2dcb4abecb5ec",
+      "stage": "original"
+    },
+    {
+      "path": "data/permissions.jsonl",
+      "rows": 3,
+      "columns": [
+        "categories",
+        "columns",
+        "effect",
+        "end",
+        "grain",
+        "organization",
+        "purpose",
+        "revision",
+        "rule",
+        "start",
+        "suppliers"
+      ],
+      "sha256": "da4873e80063beef1ab4be4183f7d9af50361b24fc130a57e3eff4d01ba33099",
+      "stage": "original"
+    },
+    {
+      "path": "data/privacy.json",
+      "rows": 1,
+      "columns": [
+        "forbidden_joint_slices",
+        "min_distinct_suppliers"
+      ],
+      "sha256": "5ee27498b7fc0dcd6926c3e1b585eb9472c81416610d1ad8cfe7315ab1d6ce7e",
+      "stage": "original"
+    },
+    {
+      "path": "data/release_requests.jsonl",
+      "rows": 4,
+      "columns": [
+        "at",
+        "columns",
+        "filters",
+        "grain",
+        "organization",
+        "purpose",
+        "request"
+      ],
+      "sha256": "71f1bfe06c53111ea0b22e1455325d5648d8917c76b690a1c4d247f5b0aed7f2",
+      "stage": "original"
+    },
+    {
+      "path": "data/receipts.jsonl",
+      "rows": 1,
+      "columns": [
+        "at",
+        "receipt",
+        "request",
+        "status"
+      ],
+      "sha256": "b4e2ea146a68df62ea1c8f6dc60ade4f8920919e2cf14217d1d166cfe7b9e600",
+      "stage": "original"
+    },
+    {
+      "path": "data/withdrawals.jsonl",
+      "rows": 1,
+      "columns": [
+        "effective_at",
+        "reason",
+        "received_at",
+        "revision",
+        "rule",
+        "withdrawal"
+      ],
+      "sha256": "bac34e0d65236ae58d5c6c772e3a705e0716a14ef5feab131cab7e64eeebdace",
+      "stage": "original"
+    },
+    {
+      "path": "data/retention.jsonl",
+      "rows": 1,
+      "columns": [
+        "contribution_id",
+        "keep_raw_until",
+        "organization",
+        "purpose"
+      ],
+      "sha256": "236dac4b1d2f5b30992c860918c317a073c5af96ad25ee2a2cfaba7c95225b97",
+      "stage": "original"
+    },
+    {
+      "path": "data/contribution_links.csv",
+      "rows": 6,
+      "columns": [
+        "contribution_id",
+        "order"
+      ],
+      "sha256": "d491c2220172467c71fc6167fc17c3ead0d229632edf457b41b32b10d5c519cc",
+      "stage": "original"
+    }
+  ]
+}

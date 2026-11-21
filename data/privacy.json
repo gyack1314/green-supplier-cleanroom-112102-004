@@ -1,0 +1,9 @@
+{
+  "min_distinct_suppliers": 2,
+  "forbidden_joint_slices": [
+    [
+      "all-metal",
+      "metal-minus-S3"
+    ]
+  ]
+}

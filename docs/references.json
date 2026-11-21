@@ -1,0 +1,14 @@
+[
+  {
+    "source": "data/contribution_links.csv",
+    "source_key": "contribution_id",
+    "target": "data/sources.parquet",
+    "target_key": "contribution_id"
+  },
+  {
+    "source": "data/withdrawals.jsonl",
+    "source_key": "rule",
+    "target": "data/permissions.jsonl",
+    "target_key": "rule"
+  }
+]

@@ -1,0 +1,4 @@
+{"request":"Q1","organization":"M1","purpose":"sourcing","at":"2026-10-12","filters":{"category":"metal","slice_tag":"all-metal"},"columns":["co2"],"grain":"category-month"}
+{"request":"Q2","organization":"M1","purpose":"sourcing","at":"2026-10-14","filters":{"category":"metal","supplier_except":"S3","slice_tag":"metal-minus-S3"},"columns":["co2"],"grain":"category-month"}
+{"request":"Q3","organization":"M2","purpose":"research","at":"2026-10-18","filters":{"category":"metal","slice_tag":"all-metal"},"columns":["co2"],"grain":"category-month"}
+{"request":"Q4","organization":"M1","purpose":"sourcing","at":"2026-10-17T10:00:00Z","filters":{"category":"plastic","slice_tag":"plastic"},"columns":["amount"],"grain":"category-month"}
